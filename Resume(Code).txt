@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>RESUME</title>
+</head>
+<style>
+    body
+    {
+    background-image:url('images/bgc.jpg');
+    background-size:cover;
+    }
+    hr 
+    {
+    margin-top: 20px;
+    border: 1px solid black; 
+    }
+    h1
+    {
+    font-weight:bold;
+    color:black;
+    text-align: center;
+    text-decoration:underline 
+    }
+    h1
+    {
+    z-index: 100;
+    }
+    h2
+    {
+        text-decoration: underline;
+    }
+    a:hover
+    {
+    color:red;
+    text-decoration: underline;
+    }
+    a:active
+    {
+    color:green;
+    }
+    a:visited
+    {
+    color:orangered;
+    }
+</style>
+<body>
+    <div>
+        <h1 style="text-align:center;">Resume</h1>
+        <hr>
+        <h2>Laasya Priya Ganga</h2>
+        <p>I am a frontend developer with experience in writing html,css and js</p>
+        <hr>
+        <h2>ABOUT</h2>
+        <img src="images/pic.jpg"width="100" height="100">
+        <p><h3>Skills:</h3>Frontend developer,Aspiring full stack developer</p>
+        <p><h3>Experience:</h3>Fresher</p>
+        <hr>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li> 
+            <li>Bootstrap</li>
+            <li>Data visualization using Python</li>
+        </ul>
+        <hr>
+        <h2>Projects</h2>
+        <p>Profile Card</p>
+        <p>Creating a ID card which includes image,about and contact info</p>
+        <img src="images/profile_card.png"width="200" height="300">
+        <hr>
+        <h2>Resume</h2>
+        <p><a href="RESUME.pdf" download>Click here to download my resume</a></p>
+        <hr>
+        <h2>Contact</h2>
+        <p>Email:<a href="mailto:umasambasivarao@gmail.com">umasambasivarao@gmail.com</a></p>
+        <p>Phone Number:xxxxxx1252</p>
+        <hr>
+        <div id="footer">
+            <p>Copyright &copy; 2024</p>
+        </div>
+    </div>
+</body>
+</html>
